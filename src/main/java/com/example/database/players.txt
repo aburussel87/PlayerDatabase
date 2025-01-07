@@ -56,4 +56,3 @@ Bhuvneshwar Kumar,India,34,1.78,Sunrisers Hyderabad,Bowler,15,1.4E7
 Mushfiqur Rahim,Bangladesh,23,1.2,Kolkata Knight Riders,Batsman,,1.0E9
 Shivam Dube,India,31,1.83,Chennai Super Kings,Allrounder,25,1.3E7
 Quinton De Kock,South Africa,31,1.7,Rajasthan Royals,Wicketkeeper,12,1.6E7
-Abu Russel,Bangladesh,23,1.2,Buet Cse,Batsman,,1.23456789E8
