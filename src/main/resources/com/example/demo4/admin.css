@@ -1,0 +1,104 @@
+/* General styling for the root pane */
+.root {
+    -fx-background-color: #f4f4f9; /* Light gray background */
+    -fx-font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Style for buttons */
+.button {
+    -fx-background-color: linear-gradient(to bottom, #0078D7, #005499); /* Gradient blue */
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 8 16;
+    -fx-background-radius: 10; /* Rounded corners */
+    -fx-border-radius: 10;
+    -fx-border-color: #003366;
+    -fx-border-width: 1;
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(to bottom, #005499, #004080); /* Darker blue on hover */
+    -fx-cursor: hand;
+}
+
+.button:pressed {
+    -fx-background-color: #003366; /* Pressed state color */
+    -fx-border-color: #002244;
+}
+
+.label {
+    -fx-font: bold 12px "Cambria";
+    -fx-font-weight: bold;
+    -fx-padding: 4;
+}
+.menu-button {
+    -fx-background-color: linear-gradient(to bottom, #0078D7, #005499); /* Gradient blue */
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 8 16;
+    -fx-background-radius: 10; /* Rounded corners */
+    -fx-border-radius: 10;
+    -fx-border-color: #003366;
+    -fx-border-width: 1;
+}
+
+.menu-button .label {
+    -fx-text-fill: black;
+}
+
+.menu-button:hover {
+    -fx-background-color: #146c43;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 5, 0, 0, 1);
+    -fx-cursor: hand;
+}
+
+.title-label {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2C3E50;
+    -fx-underline: true;
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #0078D7;
+    -fx-border-width: 2;
+}
+
+.table-view {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #DDDDDD;
+    -fx-border-radius: 5;
+}
+
+.table-column {
+    -fx-alignment: CENTER;
+}
+
+.table-row-cell:hover {
+    -fx-background-color: #E8F4FD; /* Light blue hover effect */
+}
+
+/* Scroll pane */
+.scroll-pane {
+    -fx-background: #FFFFFF;
+    -fx-border-color: #DDDDDD;
+}
+
+/* Container pane for layout */
+.container {
+    -fx-padding: 20;
+    -fx-spacing: 15;
+    -fx-alignment: CENTER;
+}
+
+/* Style for tooltips */
+.tooltip {
+    -fx-background-color: #0078D7;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-padding: 6;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}

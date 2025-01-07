@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="177.0" prefWidth="316.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.Controller.MusicSettingsController">
+   <children>
+      <Label layoutX="34.0" layoutY="50.0" prefHeight="18.0" prefWidth="61.0" text="Volume">
+         <font>
+            <Font name="Cambria Bold" size="16.0" />
+         </font>
+      </Label>
+      <Slider fx:id="slider" layoutX="106.0" layoutY="50.0" prefHeight="18.0" prefWidth="168.0" />
+      <Button fx:id="toggle" layoutX="34.0" layoutY="89.0" onAction="#toggleMusic" mnemonicParsing="false" text="Toggle Music" />
+   </children>
+</AnchorPane>

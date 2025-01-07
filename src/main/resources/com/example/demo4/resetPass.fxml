@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="420.0" prefWidth="598.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.Controller.ResetPass">
+   <children>
+      <Button layoutX="82.0" layoutY="100.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="138.0" text="Old Password" />
+      <Button layoutX="82.0" layoutY="143.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="138.0" text="New Password" />
+      <Button layoutX="82.0" layoutY="185.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="138.0" text="Retype New Password" />
+      <TextField fx:id="old" layoutX="231.0" layoutY="100.0" prefHeight="34.0" prefWidth="258.0" promptText="Type Old Password" />
+      <TextField fx:id="rpnew" layoutX="231.0" layoutY="185.0" prefHeight="34.0" prefWidth="258.0" promptText="Re-Enter New Password" />
+      <TextField fx:id="pnew" layoutX="231.0" layoutY="143.0" prefHeight="34.0" prefWidth="258.0" promptText="Enter New Password(8 characters)" />
+      <Button fx:id="save" layoutX="231.0" layoutY="235.0" mnemonicParsing="false" onAction="#savePressed" prefHeight="34.0" prefWidth="70.0" text="Save" />
+      <Button fx:id="back" layoutX="325.0" layoutY="235.0" mnemonicParsing="false" onAction="#backPressed" prefHeight="34.0" prefWidth="70.0" text="Back" />
+      <Label fx:id="alert" layoutX="237.0" layoutY="81.0" prefHeight="18.0" prefWidth="258.0" textFill="#ef1212">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

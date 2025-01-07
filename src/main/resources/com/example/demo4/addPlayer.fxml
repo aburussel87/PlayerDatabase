@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@AddPlayer.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.Controller.AddPlayer">
+    <children>
+        <Button fx:id="BackPressed" layoutX="534.0" layoutY="14.0" mnemonicParsing="false" onAction="#Back" text="Back" />
+        <Button layoutX="53.0" layoutY="40.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="92.0" text="Name" />
+        <Button layoutX="53.0" layoutY="76.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="92.0" text="Age" />
+        <Button layoutX="53.0" layoutY="112.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="92.0" text="Height" />
+        <Button layoutX="53.0" layoutY="306.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="110.0" text="Weekly Salary" />
+        <Button layoutX="53.0" layoutY="148.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="92.0" text="Country" />
+        <Button layoutX="53.0" layoutY="187.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="92.0" text="Club" />
+        <Button layoutX="53.0" layoutY="268.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="92.0" text="Jersey No." />
+        <TextField fx:id="name" layoutX="154.0" layoutY="40.0" prefHeight="26.0" prefWidth="230.0" promptText="Enter player's name" />
+        <TextField fx:id="jersey" layoutX="154.0" layoutY="268.0" prefHeight="26.0" prefWidth="230.0" promptText=" Enter jersey number / skip" />
+        <TextField fx:id="salary" layoutX="170.0" layoutY="304.0" prefHeight="30.0" prefWidth="214.0" promptText="Enter weekly Salary" />
+        <TextField fx:id="age" layoutX="154.0" layoutY="76.0" prefHeight="26.0" prefWidth="230.0" promptText="Enter player's age" />
+        <TextField fx:id="height" layoutX="154.0" layoutY="112.0" prefHeight="26.0" prefWidth="230.0" promptText="Enter Player's height(m)" />
+        <TextField fx:id="country" layoutX="154.0" layoutY="148.0" prefHeight="26.0" prefWidth="230.0" promptText="Enter country name" />
+        <TextField fx:id="club" layoutX="154.0" layoutY="186.0" prefHeight="26.0" prefWidth="230.0" promptText="Enter club name" />
+        <Button fx:id="save" layoutX="462.0" layoutY="286.0" mnemonicParsing="false" onAction="#saveclicked" prefHeight="40.0" prefWidth="72.0" text="Save" />
+        <ImageView fx:id="image" fitHeight="178.0" fitWidth="162.0" layoutX="417.0" layoutY="49.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@player1.png" />
+            </image>
+        </ImageView>
+        <Button fx:id="imagechhoser" layoutX="447.0" layoutY="227.0" mnemonicParsing="false" onAction="#imagechosen" prefHeight="26.0" prefWidth="94.0" text="Choose File" />
+        <MenuButton fx:id="position" layoutX="53.0" layoutY="221.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="160.0" text="Select Position">
+            <items>
+                <MenuItem mnemonicParsing="false" onAction="#batsmanselected" text="Batsman" />
+                <MenuItem mnemonicParsing="false" onAction="#bowlerselected" text="Bowler" />
+                <MenuItem mnemonicParsing="false" onAction="#allrounderselected" text="Allrounder" />
+                <MenuItem mnemonicParsing="false" onAction="#wicketkeeperselected" text="Wicketkeeper" />
+            </items>
+        </MenuButton>
+        <Text fx:id="remainder" fill="#ff0303" layoutX="424.0" layoutY="217.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter valid name to insert image" underline="true">
+            <font>
+                <Font name="System Italic" size="10.0" />
+            </font>
+        </Text>
+        <Button fx:id="clear" layoutX="269.0" layoutY="348.0" mnemonicParsing="false" onAction="#cleared" text="Clear" />
+    </children>
+</AnchorPane>

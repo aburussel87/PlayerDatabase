@@ -1,0 +1,62 @@
+.root {
+    -fx-font-family: "Verdana";
+    -fx-background-color: radial-gradient(center 50% 50%, radius 80%, #74787e, rgb(207, 236, 239));
+    -fx-padding: 20px;
+}
+.pane {
+    -fx-background-color: linear-gradient(to bottom right, #77fa57, #ffffff);
+    -fx-border-color: #d6eaff;
+    -fx-border-width: 2px;
+    -fx-border-radius: 10px;
+    -fx-padding: 5px;
+}
+
+.label {
+    -fx-font-family: "Arial";
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-background-color: #e6f7ff;
+    -fx-border-color: #b3e5fc;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.2, 0, 2);
+}
+
+.button {
+    -fx-background-color: linear-gradient(to bottom, #4CAF50, #2E7D32);
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-padding: 4px 5px;
+    -fx-border-radius: 5px;
+    -fx-border-width: 1px;
+    -fx-border-color: #388E3C;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.2, 0, 2);
+}
+
+.text-area {
+    -fx-font-family: "Courier New", monospace;
+    -fx-font-size: 12px;
+    -fx-background-color: #f9f9f9;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5px;
+    -fx-padding: 4px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 5, 0.1, 0, 2);
+}
+
+.label:hover, .button:hover {
+    -fx-background-color: linear-gradient(to bottom, #e0f7fa, #b2ebf2);
+    -fx-border-color: #81d4fa;
+}
+
+.image-view {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 0, 5);
+    -fx-background-radius: 10px;
+    -fx-padding: 5px;
+}
+.image-view:hover {
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 15, 0.5, 0, 10);
+}

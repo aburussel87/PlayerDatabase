@@ -1,0 +1,59 @@
+Glenn Maxwell,Australia,35,1.82,Royal Challengers Bangalore,Allrounder,32,1.85E7
+Deepak Chahar,India,32,1.79,Chennai Super Kings,Bowler,,1.5E7
+Brendon Mccullum,New Zealand,29,1.3,Mumbai Indians,Batsman,,1.5E7
+Aiden Markram,South Africa,30,1.83,Sunrisers Hyderabad,Allrounder,16,1.6E7
+Ravindra Jadeja,India,35,1.73,Chennai Super Kings,Allrounder,8,1.65E7
+Litton Das,Bangladesh,23,1.2,Sunrisers Hyderabad,Batsman,,1500000.0
+Mustafizur Rahman,Bangladesh,29,1.8,Royal Challengers Bangalore,Bowler,90,1.4E7
+Rohit Sharma,India,37,1.74,Gujarat Titans,Batsman,45,1.9E7
+Trent Boult,New Zealand,35,1.85,Rajasthan Royals,Bowler,18,1.75E7
+David Warner,Australia,37,1.7,Lucknow Super Giants,Batsman,31,1.5E7
+Nicholas Pooran,West Indies,29,1.83,Lucknow Super Giants,Wicketkeeper,,1.65E7
+Rassie Van Der Dussen,South Africa,35,1.87,Rajasthan Royals,Batsman,78,1.5E7
+Jasprit Bumrah,India,30,1.78,Rajasthan Royals,Bowler,93,1.75E7
+Kuldeep Yadav,India,29,1.74,Lucknow Super Giants,Bowler,23,1.5E7
+Gautam Gambhir,India,23,0.9,Royal Challengers Bangalore,Batsman,19,1000000.0
+Faf Du Plessis,South Africa,40,1.78,Royal Challengers Bangalore,Batsman,18,1.75E7
+Ruturaj Gaikwad,India,27,1.78,Chennai Super Kings,Batsman,31,1.5E7
+MS Dhoni,India,35,1.5,Mumbai Indians,Batsman,,1.2E8
+Suryakumar Yadav,India,34,1.78,Gujarat Titans,Batsman,63,1.7E7
+Sanju Samson,India,30,1.79,Rajasthan Royals,Wicketkeeper,9,1.7E7
+Harshal Patel,India,33,1.75,Royal Challengers Bangalore,Bowler,,1.5E7
+Chris Gayle,West Indies,39,1.5,Royal Challengers Bangalore,Batsman,,1.2E8
+Rashid Khan,Afghanistan,26,1.78,Mumbai Indians,Bowler,19,1.6E7
+Shubman Gill,India,25,1.78,Gujarat Titans,Batsman,77,1.5E7
+Prithvi Shaw,India,24,1.68,Chennai Super Kings,Batsman,100,1.2E7
+Virat Kohli,India,35,1.75,Royal Challengers Bangalore,Batsman,18,1.7E7
+Suailim Mubhtasim,Bangladesh,23,1.2,Buet Bd,Bowler,,123456.0
+Taskin Ahmed,Bangladesh,23,1.0,Lucknow Super Giants,Bowler,56,3.4343434E7
+Dinesh Karthik,India,39,1.7,Rajasthan Royals,Wicketkeeper,21,1.6E7
+Cameron Green,Australia,25,1.93,Kolkata Knight Riders,Allrounder,25,2.1E7
+Lockie Ferguson,New Zealand,33,1.85,Kolkata Knight Riders,Bowler,69,1.75E7
+Kane Williamson,New Zealand,34,1.83,Mumbai Indians,Batsman,22,1.6E7
+Yuzvendra Chahal,India,33,1.7,Rajasthan Royals,Bowler,3,1.5E7
+KL Rahul,India,35,1.2,Mumbai Indians,Batsman,,1.258845E7
+Pat Cummins,Australia,31,1.92,Kolkata Knight Riders,Bowler,30,1.75E7
+Axar Patel,India,30,1.83,Lucknow Super Giants,Allrounder,20,1.75E7
+Krunal Pandya,India,33,1.8,Lucknow Super Giants,Allrounder,24,1.6E7
+Hardik Pandya,India,30,1.83,Lucknow Super Giants,Allrounder,33,1.85E7
+Kagiso Rabada,South Africa,29,1.91,Punjab Kings,Bowler,,1.9E7
+Sunil Narine,West Indies,36,1.8,Kolkata Knight Riders,Allrounder,74,1.8E7
+Washington Sundar,India,25,1.75,Sunrisers Hyderabad,Allrounder,5,1.4E7
+Mohammed Siraj,India,30,1.79,Rajasthan Royals,Bowler,,1.7E7
+Shikhar Dhawan,India,38,1.8,Punjab Kings,Batsman,42,1.7E7
+Ishan Kishan,India,26,1.68,Rajasthan Royals,Wicketkeeper,23,2.0E7
+Sam Curran,England,26,1.75,Punjab Kings,Allrounder,58,2.0E7
+AL Zihad,Bangladesh,23,1.2,Buet Rogers,Bowler,,1.2E7
+Mahadi Mahi,Bangladesh,22,1.12,Buet Eee,Allrounder,,1.0E7
+Jos Buttler,England,34,1.8,Rajasthan Royals,Wicketkeeper,63,1.75E7
+Mohammed Shami,India,34,1.73,Gujarat Titans,Bowler,,1.4E7
+Sachin Tendulkar,India,37,1.1,Gujarat Titans,Batsman,,1.0E11
+Tim David,Australia,28,1.96,Mumbai Indians,Allrounder,21,1.5E7
+Venkatesh Iyer,India,29,1.88,Kolkata Knight Riders,Allrounder,19,1.6E7
+Andre Russell,West Indies,36,1.88,Kolkata Knight Riders,Allrounder,,1.8E7
+AL Ratul,Bangladesh,23,1.2,Buet Cricketers,Batsman,,1.2E11
+Bhuvneshwar Kumar,India,34,1.78,Sunrisers Hyderabad,Bowler,15,1.4E7
+Mushfiqur Rahim,Bangladesh,23,1.2,Kolkata Knight Riders,Batsman,,1.0E9
+Shivam Dube,India,31,1.83,Chennai Super Kings,Allrounder,25,1.3E7
+Quinton De Kock,South Africa,31,1.7,Rajasthan Royals,Wicketkeeper,12,1.6E7
+Abu Russel,Bangladesh,23,1.2,Buet Cse,Batsman,,1.23456789E8

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="477.0" prefWidth="336.0" stylesheets="@successfulAddition.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.Controller.Details">
+   <children>
+      <ImageView fx:id="image" fitHeight="172.0" fitWidth="190.0" layoutX="75.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../java/com/example/PlayersImage/player1.png" />
+         </image>
+      </ImageView>
+      <ScrollPane fx:id="details" layoutX="34.0" layoutY="224.0" prefHeight="230.0" prefWidth="268.0" />
+   </children>
+</AnchorPane>

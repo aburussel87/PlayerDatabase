@@ -1,0 +1,87 @@
+.root {
+    -fx-background-color: linear-gradient(to bottom, #f5f7fa, #c3cfe2);
+    -fx-font-family: "Cambria";
+}
+
+.text {
+    -fx-font-weight: bold;
+    -fx-fill: #2b6cb0;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.3, 0, 2);
+}
+
+.button {
+    -fx-background-color: linear-gradient(to bottom, #a3e6a2, #83d583);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px 10px;
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(to bottom, #baeff4, #cdd7ea);
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 10, 0.3, 0, 2);
+}
+
+.label {
+    -fx-text-fill: #2f3e46;
+    -fx-font-family: "Cambria";
+    -fx-padding: 5px;
+}
+
+.label.large {
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c5282;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.3, 0, 2);
+}
+
+.list-view {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #e2e8f0;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+}
+
+.list-view .list-cell {
+    -fx-background-color: #edf2f7;
+    -fx-border-color: #cbd5e0;
+    -fx-border-width: 0 0 1px 0;
+    -fx-padding: 10px;
+    -fx-font-family: "Cambria";
+    -fx-text-fill: #2d3748;
+}
+
+.list-view .list-cell:odd {
+    -fx-background-color: #e2e8f0;
+}
+
+.list-view .list-cell:hover {
+    -fx-background-color: linear-gradient(to right, #a8dadc, #457b9d);
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 5, 0.3, 0, 2);
+}
+
+.pane {
+    -fx-background-color: linear-gradient(to bottom, #f8f9fa, #e3e6e8);
+    -fx-border-color: #c3cfe2;
+    -fx-border-radius: 10px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 5, 0.2, 0, 2);
+    -fx-padding: 10px;
+}
+
+.hbox {
+    -fx-spacing: 10px;
+    -fx-alignment: center-left;
+}
+
+.hbox .label {
+    -fx-font-weight: bold;
+    -fx-text-fill: #2b6cb0;
+}
+
+.hbox .label:hover {
+    -fx-text-fill: #4a5568;
+}
+
+.text:hover {
+    -fx-fill: #3182ce;
+}

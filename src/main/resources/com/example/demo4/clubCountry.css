@@ -1,0 +1,105 @@
+.root {
+    -fx-background-color: linear-gradient(to bottom, #f8f9fa, #e9ecef);
+    -fx-font-family: "Cambria";
+}
+
+.menu-button {
+    -fx-background-color: linear-gradient(to bottom, #9bf0f4, #cdd7ea);
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-border-radius: 5px;
+    -fx-border-color: #145c42;
+    -fx-padding: 5px 10px;
+}
+
+.menu-button:hover {
+    -fx-background-color: linear-gradient(to bottom, #baeff4, #f150e2);
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 8, 0.3, 0, 3);
+}
+
+.menu-button .menu-item {
+    -fx-background-color: #f8f9fa;
+    -fx-text-fill: #333333;
+    -fx-font-family: "Cambria";
+    -fx-padding: 5px 10px;
+}
+
+.menu-button .menu-item:hover {
+    -fx-background-color: #d1e7dd;
+    -fx-text-fill: #0d6efd;
+}
+
+.button {
+    -fx-background-color: linear-gradient(to bottom, #4CAF50, #2E7D32);
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px 10px;
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(to bottom, #45a049, #27632a);
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.2, 0, 2);
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+    -fx-font-family: "Cambria";
+}
+
+#count {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #0077b6;
+}
+
+.list-view {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #d1d9e1;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+}
+
+.list-view .list-cell {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #e2e6ea;
+    -fx-border-radius: 5px;
+    -fx-padding: 10px;
+    -fx-font-family: "Cambria";
+}
+
+.list-view .list-cell:odd {
+    -fx-background-color: #f8f9fa;
+}
+
+.list-view .list-cell:filled:hover {
+    -fx-background-color: #f1f3f5;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 5, 0.1, 0, 2);
+}
+
+.image-view {
+    -fx-border-radius: 5px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 8, 0.2, 0, 3);
+}
+
+.image-view:hover {
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 12, 0.3, 0, 4);
+}
+
+.hbox-player-card {
+    -fx-background-color: #f8f9fa;
+    -fx-border-color: #d1d9e1;
+    -fx-border-radius: 10px;
+    -fx-padding: 10px;
+    -fx-spacing: 10px;
+}
+
+.hbox-player-card:hover {
+    -fx-background-color: #e2e6ea;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 8, 0.3, 0, 3);
+}

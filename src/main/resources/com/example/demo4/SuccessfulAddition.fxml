@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="468.0" prefWidth="306.0" stylesheets="@successfulAddition.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.Controller.SuccessfulAddition">
+   <children>
+      <ImageView fx:id="image" fitHeight="156.0" fitWidth="159.0" layoutX="69.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@start.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="84.0" layoutY="23.0" prefHeight="30.0" prefWidth="129.0" text="New Player Added" />
+      <Label fx:id="display" alignment="TOP_LEFT" layoutX="32.0" layoutY="230.0" prefHeight="224.0" prefWidth="242.0" />
+   </children>
+</AnchorPane>
