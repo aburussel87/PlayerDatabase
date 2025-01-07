@@ -74,13 +74,13 @@ public class Standardization {
             throw new IllegalArgumentException("Password length must be at least 4 characters.");
         }
         String upperCaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-        String lowerCaseLetters = "abcdefghijklmnopqrstuvwxyz";
+        //String lowerCaseLetters = "abcdefghijklmnopqrstuvwxyz";
         String digits = "0123456789";
-        String allCharacters = upperCaseLetters + lowerCaseLetters + digits;
+        String allCharacters = upperCaseLetters /* +lowerCaseLetters */ + digits;
         SecureRandom random = new SecureRandom();
         StringBuilder password = new StringBuilder();
         password.append(upperCaseLetters.charAt(random.nextInt(upperCaseLetters.length())));
-        password.append(lowerCaseLetters.charAt(random.nextInt(lowerCaseLetters.length())));
+        //password.append(lowerCaseLetters.charAt(random.nextInt(lowerCaseLetters.length())));
         password.append(digits.charAt(random.nextInt(digits.length())));
         for (int i = 4; i < length; i++) {
             password.append(allCharacters.charAt(random.nextInt(allCharacters.length())));
